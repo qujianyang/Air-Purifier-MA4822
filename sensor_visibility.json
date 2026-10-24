@@ -1,0 +1,230 @@
+{
+  "exterior": {},
+  "sensor_cut": {
+    "controller": {
+      "part": "E01A controller processor",
+      "retained_volume_ratio": 1.0
+    },
+    "pressure": {
+      "part": "E02A raw differential pressure module allowance",
+      "retained_volume_ratio": 1.0
+    },
+    "cover_switch": {
+      "part": "E03 cover interlock body",
+      "retained_volume_ratio": 1.0
+    },
+    "airflow": {
+      "part": "S01A FS3000 substrate 9x8",
+      "retained_volume_ratio": 1.0
+    },
+    "pm_up": {
+      "part": "S03 pm_up SPS30 body",
+      "retained_volume_ratio": 1.0
+    },
+    "pm_down": {
+      "part": "S03 pm_down SPS30 body",
+      "retained_volume_ratio": 1.0
+    },
+    "rht": {
+      "part": "S04A SHT40 package 1.5x1.5x0.54",
+      "retained_volume_ratio": 1.0
+    },
+    "anchors": [
+      {
+        "label": "1  FS3000 on carrier",
+        "point": [
+          198.5,
+          159,
+          582
+        ],
+        "depth_difference": 1.0758638381958008e-05
+      },
+      {
+        "label": "2  Cover interlock",
+        "point": [
+          355,
+          9,
+          369
+        ],
+        "depth_difference": 2.518296241760254e-05
+      },
+      {
+        "label": "3  Outlet SPS30 optional",
+        "point": [
+          50,
+          109,
+          331
+        ],
+        "depth_difference": 1.0013580322265625e-05
+      },
+      {
+        "label": "4  P\u2212 clean static tap",
+        "point": [
+          386,
+          170,
+          344
+        ],
+        "depth_difference": 4.6581029891967773e-05
+      },
+      {
+        "label": "5  Inlet SPS30",
+        "point": [
+          50,
+          109,
+          151
+        ],
+        "depth_difference": 5.27501106262207e-06
+      },
+      {
+        "label": "6  SHT40 on carrier",
+        "point": [
+          329.45,
+          18.46,
+          147
+        ],
+        "depth_difference": 1.4871358871459961e-05
+      },
+      {
+        "label": "7  P+ dirty static tap",
+        "point": [
+          386,
+          170,
+          184
+        ],
+        "depth_difference": 4.082918167114258e-06
+      }
+    ]
+  },
+  "rear": {
+    "controller": {
+      "part": "E01A controller processor",
+      "retained_volume_ratio": 1.0
+    },
+    "pressure": {
+      "part": "E02A raw differential pressure module allowance",
+      "retained_volume_ratio": 1.0
+    },
+    "anchors": [
+      {
+        "label": "1  Controller and UARTs",
+        "point": [
+          270,
+          268.6,
+          500
+        ],
+        "depth_difference": 4.172325134277344e-06
+      },
+      {
+        "label": "2  Pressure conditioning IC",
+        "point": [
+          290,
+          267.6,
+          355
+        ],
+        "depth_difference": 3.3676624298095703e-06
+      },
+      {
+        "label": "3  Raw \u0394P module allowance",
+        "point": [
+          330,
+          282,
+          335
+        ],
+        "depth_difference": 7.12275505065918e-06
+      },
+      {
+        "label": "4  P+ red pressure tube",
+        "point": [
+          318,
+          278,
+          320
+        ],
+        "depth_difference": 2.759695053100586e-05
+      },
+      {
+        "label": "5  P\u2212 blue pressure tube",
+        "point": [
+          332,
+          278,
+          320
+        ],
+        "depth_difference": 1.0341405868530273e-05
+      },
+      {
+        "label": "6  Signal harness routes",
+        "point": [
+          244,
+          280,
+          220
+        ],
+        "depth_difference": 5.453824996948242e-06
+      },
+      {
+        "label": "7  5 V and 3.3 V rails",
+        "point": [
+          101,
+          274.6,
+          110
+        ],
+        "depth_difference": 2.014636993408203e-05
+      },
+      {
+        "label": "8  Low voltage input",
+        "point": [
+          96,
+          296,
+          76
+        ],
+        "depth_difference": 2.6017427444458008e-05
+      }
+    ]
+  },
+  "service": {
+    "controller": {
+      "part": "E01A controller processor",
+      "retained_volume_ratio": 1.0
+    },
+    "pressure": {
+      "part": "E02A raw differential pressure module allowance",
+      "retained_volume_ratio": 1.0
+    },
+    "cover_switch": {
+      "part": "E03 cover interlock body",
+      "retained_volume_ratio": 1.0
+    },
+    "airflow": {
+      "part": "S01A FS3000 substrate 9x8",
+      "retained_volume_ratio": 1.0
+    },
+    "pm_up": {
+      "part": "S03 pm_up SPS30 body",
+      "retained_volume_ratio": 1.0
+    },
+    "pm_down": {
+      "part": "S03 pm_down SPS30 body",
+      "retained_volume_ratio": 1.0
+    },
+    "rht": {
+      "part": "S04A SHT40 package 1.5x1.5x0.54",
+      "retained_volume_ratio": 0.9999999999999987
+    }
+  },
+  "detail_pm": {
+    "pm_up": {
+      "part": "S03 pm_up SPS30 body",
+      "retained_volume_ratio": 1.0
+    }
+  },
+  "detail_pm_back": {
+    "pm_up": {
+      "part": "S03 pm_up SPS30 body",
+      "retained_volume_ratio": 1.0
+    }
+  },
+  "detail_flow": {
+    "airflow": {
+      "part": "S01A FS3000 substrate 9x8",
+      "retained_volume_ratio": 1.0
+    }
+  }
+}

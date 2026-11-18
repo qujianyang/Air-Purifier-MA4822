@@ -6,23 +6,27 @@
       "retained_volume_ratio": 1.0
     },
     "pressure": {
-      "part": "E02A raw differential pressure module allowance",
+      "part": "E02A filter differential pressure module allowance",
+      "retained_volume_ratio": 1.0
+    },
+    "flow_dp": {
+      "part": "E02F flow differential pressure module SDP810 class",
       "retained_volume_ratio": 1.0
     },
     "cover_switch": {
       "part": "E03 cover interlock body",
       "retained_volume_ratio": 1.0
     },
-    "airflow": {
-      "part": "S01A FS3000 substrate 9x8",
+    "bellmouth": {
+      "part": "A07 fan inlet bell-mouth throat160 lip228",
+      "retained_volume_ratio": 0.5344022421077946
+    },
+    "throat_taps": {
+      "part": "A08 throat static tap 0",
       "retained_volume_ratio": 1.0
     },
     "pm_up": {
       "part": "S03 pm_up SPS30 body",
-      "retained_volume_ratio": 1.0
-    },
-    "pm_down": {
-      "part": "S03 pm_down SPS30 body",
       "retained_volume_ratio": 1.0
     },
     "rht": {
@@ -31,34 +35,25 @@
     },
     "anchors": [
       {
-        "label": "1  FS3000 on carrier",
-        "point": [
-          198.5,
-          159,
-          582
-        ],
-        "depth_difference": 1.0758638381958008e-05
-      },
-      {
-        "label": "2  Cover interlock",
-        "point": [
-          355,
-          9,
-          369
-        ],
-        "depth_difference": 2.518296241760254e-05
-      },
-      {
-        "label": "3  Outlet SPS30 optional",
+        "label": "1  Inlet SPS30",
         "point": [
           50,
           109,
-          331
+          151
         ],
-        "depth_difference": 1.0013580322265625e-05
+        "depth_difference": 5.27501106262207e-06
       },
       {
-        "label": "4  P\u2212 clean static tap",
+        "label": "2  P+ dirty-plenum static tap",
+        "point": [
+          386,
+          170,
+          184
+        ],
+        "depth_difference": 4.082918167114258e-06
+      },
+      {
+        "label": "3  P\u2212 clean-plenum static tap",
         "point": [
           386,
           170,
@@ -67,13 +62,22 @@
         "depth_difference": 4.6581029891967773e-05
       },
       {
-        "label": "5  Inlet SPS30",
+        "label": "4  Bell-mouth throat taps (4)",
         "point": [
-          50,
-          109,
-          151
+          285.0,
+          127.8,
+          390.0
         ],
-        "depth_difference": 5.27501106262207e-06
+        "depth_difference": 1.58846378326416e-05
+      },
+      {
+        "label": "5  Fan-inlet bell-mouth",
+        "point": [
+          314.0,
+          130.0,
+          364
+        ],
+        "depth_difference": 3.069639205932617e-06
       },
       {
         "label": "6  SHT40 on carrier",
@@ -85,13 +89,13 @@
         "depth_difference": 1.4871358871459961e-05
       },
       {
-        "label": "7  P+ dirty static tap",
+        "label": "7  Cover interlock",
         "point": [
-          386,
-          170,
-          184
+          355,
+          9,
+          369
         ],
-        "depth_difference": 4.082918167114258e-06
+        "depth_difference": 2.518296241760254e-05
       }
     ]
   },
@@ -101,12 +105,16 @@
       "retained_volume_ratio": 1.0
     },
     "pressure": {
-      "part": "E02A raw differential pressure module allowance",
+      "part": "E02A filter differential pressure module allowance",
+      "retained_volume_ratio": 1.0
+    },
+    "flow_dp": {
+      "part": "E02F flow differential pressure module SDP810 class",
       "retained_volume_ratio": 1.0
     },
     "anchors": [
       {
-        "label": "1  Controller and UARTs",
+        "label": "1  Controller and UART",
         "point": [
           270,
           268.6,
@@ -115,7 +123,7 @@
         "depth_difference": 4.172325134277344e-06
       },
       {
-        "label": "2  Pressure conditioning IC",
+        "label": "2  INA333 bridge amplifier",
         "point": [
           290,
           267.6,
@@ -124,43 +132,52 @@
         "depth_difference": 3.3676624298095703e-06
       },
       {
-        "label": "3  Raw \u0394P module allowance",
+        "label": "3  Filter \u0394P module",
         "point": [
-          330,
+          325,
           282,
           335
         ],
-        "depth_difference": 7.12275505065918e-06
+        "depth_difference": 3.784894943237305e-05
       },
       {
-        "label": "4  P+ red pressure tube",
+        "label": "4  Bell-mouth flow \u0394P module (I\u00b2C)",
+        "point": [
+          343,
+          282,
+          358
+        ],
+        "depth_difference": 3.984570503234863e-05
+      },
+      {
+        "label": "5  P+ tube (red)",
         "point": [
           318,
-          278,
-          320
+          277,
+          300
         ],
-        "depth_difference": 2.759695053100586e-05
+        "depth_difference": 6.109476089477539e-06
       },
       {
-        "label": "5  P\u2212 blue pressure tube",
+        "label": "6  P\u2212 tube and branch (blue)",
         "point": [
-          332,
-          278,
-          320
+          350,
+          277,
+          330
         ],
-        "depth_difference": 1.0341405868530273e-05
+        "depth_difference": 1.665949821472168e-05
       },
       {
-        "label": "6  Signal harness routes",
+        "label": "7  Throat-tap tube (orange)",
         "point": [
-          244,
-          280,
-          220
+          300,
+          272,
+          390.0
         ],
-        "depth_difference": 5.453824996948242e-06
+        "depth_difference": 1.4215707778930664e-05
       },
       {
-        "label": "7  5 V and 3.3 V rails",
+        "label": "8  5 V and 3.3 V rails",
         "point": [
           101,
           274.6,
@@ -169,7 +186,7 @@
         "depth_difference": 2.014636993408203e-05
       },
       {
-        "label": "8  Low voltage input",
+        "label": "9  Low voltage input",
         "point": [
           96,
           296,
@@ -185,23 +202,27 @@
       "retained_volume_ratio": 1.0
     },
     "pressure": {
-      "part": "E02A raw differential pressure module allowance",
+      "part": "E02A filter differential pressure module allowance",
+      "retained_volume_ratio": 1.0
+    },
+    "flow_dp": {
+      "part": "E02F flow differential pressure module SDP810 class",
       "retained_volume_ratio": 1.0
     },
     "cover_switch": {
       "part": "E03 cover interlock body",
       "retained_volume_ratio": 1.0
     },
-    "airflow": {
-      "part": "S01A FS3000 substrate 9x8",
+    "bellmouth": {
+      "part": "A07 fan inlet bell-mouth throat160 lip228",
       "retained_volume_ratio": 1.0
+    },
+    "throat_taps": {
+      "part": "A08 throat static tap 0",
+      "retained_volume_ratio": 0.9999999999999946
     },
     "pm_up": {
       "part": "S03 pm_up SPS30 body",
-      "retained_volume_ratio": 1.0
-    },
-    "pm_down": {
-      "part": "S03 pm_down SPS30 body",
       "retained_volume_ratio": 1.0
     },
     "rht": {
@@ -221,9 +242,13 @@
       "retained_volume_ratio": 1.0
     }
   },
-  "detail_flow": {
-    "airflow": {
-      "part": "S01A FS3000 substrate 9x8",
+  "detail_bell": {
+    "bellmouth": {
+      "part": "A07 fan inlet bell-mouth throat160 lip228",
+      "retained_volume_ratio": 1.0
+    },
+    "throat_taps": {
+      "part": "A08 throat static tap 0",
       "retained_volume_ratio": 1.0
     }
   }

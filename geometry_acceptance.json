@@ -1,0 +1,30 @@
+{
+  "household": {
+    "tap_to_manifold_max_gap_mm": 0.0,
+    "four_static_bores_clear": true,
+    "gallery_hollow": true,
+    "deck_to_bell_intersection_mm3": 0.0,
+    "pressure_connection_gaps_mm": {
+      "reference_T": 0.0,
+      "reference_port": 0.0,
+      "throat_port": 0.0,
+      "manifold_outlet": 0.0
+    },
+    "new_pressure_tubes_to_wiring_min_clearance_mm": 3.8999999999999773,
+    "shape_and_step_checks_pass": true
+  },
+  "bench": {
+    "tap_to_manifold_max_gap_mm": 0.0,
+    "four_static_bores_clear": true,
+    "gallery_hollow": true,
+    "deck_to_bell_intersection_mm3": 0.0,
+    "pressure_connection_gaps_mm": {
+      "reference_T": 0.0,
+      "reference_port": 0.0,
+      "throat_port": 0.0,
+      "manifold_outlet": 0.0
+    },
+    "new_pressure_tubes_to_wiring_min_clearance_mm": 3.8999999999999773,
+    "shape_and_step_checks_pass": true
+  }
+}
